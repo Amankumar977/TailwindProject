@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance CSS</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="bg-[url('/src/assets/BG.png')] bg-cover font-mono">
+      <nav>
+        <div class="mx-8 flex justify-between items-center h-14">
+          <div>
+            <img
+              src="/src/assets/Logo.png"
+              alt="TrustCo Logo"
+              class="w-20 cursor-pointer" />
+          </div>
+          <div class="hidden lg:block">
+            <ul class="flex font-bold">
+              <li class="m-2 cursor-pointer">Features</li>
+              <li class="m-2 cursor-pointer">Solution</li>
+              <li class="m-2 cursor-pointer">Company</li>
+              <li class="m-2 cursor-pointer">Resources</li>
+              <li class="m-2 cursor-pointer">Contact</li>
+            </ul>
+          </div>
+          <div class="hidden md:block">
+            <button class="bg-white rounded-full px-4 py-2">Log In</button>
+            <button class="bg-blue-600 rounded-full px-4 py-2 text-white">
+              Sign Up
+            </button>
+          </div>
+          <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </nav>
+    </header>
+    <div class="mb-[200rem]"></div>
+  </body>
+</html>
